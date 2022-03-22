@@ -16,9 +16,8 @@ getResult(List list) {
   var value = "dart";
   bool check = false;
   for (var valueKey in list) {
-    if (valueKey == value) {
+    if (valueKey == value)
       check = true;
-    }
   }
   print(check);
 }
